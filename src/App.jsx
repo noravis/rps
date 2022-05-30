@@ -14,7 +14,7 @@ function App() {
     let streakYouCopy = streakYou;
 
     if (CPUnum === 1) {
-      setResult("You chose ROCK, computer chose ROCK, it'ss a draw");
+      setResult("You chose ROCK, computer chose ROCK, it's a draw");
     } else if (CPUnum === 2) {
       setResult("You chose ROCK, computer chose PAPER, computer wins");
       streakCPUCopy += 1;
