@@ -58,12 +58,12 @@ function App() {
       setStreakCPU(streakCPUCopy);
       setStreakYou(0);
     } else if (CPUnum === 2) {
-      setResult("You chose SCISSORS, computer chose paper,  you win");
+      setResult("You chose SCISSORS, computer chose PAPER,  you win");
       streakYouCopy += 1;
       setStreakYou(streakYouCopy);
       setStreakCPU(0);
     } else {
-      setResult("You chose SCISSORS, computer chose scissors, it's a draw");
+      setResult("You chose SCISSORS, computer chose SCISSORS, it's a draw");
     }
   };
 
